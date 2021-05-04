@@ -8,20 +8,30 @@ De applicatie moet meerdere verschillende relationele databases ondersteunen. He
 De applicatie maakt gebruik van de volgende APIs en frameworks:
 
 • JAX-RS v2.0 (REST, JSON)
+
 • CDI (Context & Dependency injection)
+
 • JDBC API
+
 De applicatie moet gedeployed kunnen worden op Apache TomEE Plus.
 De front-end en back-end moeten Restful (JSON over HTTP) kunnen communiceren volgens de REST API specificatie.
 
 2.1 Realiseer de applicatie op basis van deze casusbeschrijving
+
 Realiseer de Spotitube-applicatie waarbij je gebruik maakt van de volgende layers:
+
 • Data access layer: Implementeer het Data Mapper pattern en Separated Interface door middel van JDBC en een SQL database.
+
 • Domain layer of Service Layer pattern
+
 • Remote Facade pattern doormiddel van REST-services.
 
+
 2.2 Interactie tussen lagen
+
 Verlaag de afhankelijkheid tussen de lagen door Dependency Injection toe te passen Toon aan dat de afhankelijkheid verlaagd is door meerdere unittests.
 De Presentation layer is gegeven middels de client-applicatie en hoef je niet zelf te realiseren maar je moet deze wel gebruiken om jouw back-end aan te spreken.
 
 2.3 Code coverage
+
 Zorg dat minimaal 80% van de code via Unittests wordt getest.
