@@ -1,0 +1,6 @@
+me/tim/oose/dea/service/PlaylistServiceTest.class
+me/tim/oose/dea/controllers/TrackControllerTest.class
+me/tim/oose/dea/controllers/PlaylistControllerTest.class
+me/tim/oose/dea/controllers/LoginControllerTest.class
+me/tim/oose/dea/service/LoginServiceTest.class
+me/tim/oose/dea/service/TrackServiceTest.class
