@@ -5,8 +5,9 @@ Spotify en Youtube hebben de handen ineengeslagen en werken gezamenlijk aan een 
 Een Playlist heeft een naam en een eigenaar, een eigenaar heeft een gebruikersnaam en wachtwoord. Er kunnen 2 soorten tracks in een playlist worden opgeslagen namelijk liedjes (song) en filmpjes (video). Een track heeft een performer, titel, url en afspeelduur. Een song heeft naast alle eigenschappen van een track een album, een video heeft naast alle eigenschappen van een track een publicatiedatum en een beschrijving. Elke track kan offline of online beschikbaar zijn in een specifieke playlist.
 De applicatie moet meerdere verschillende relationele databases ondersteunen. Het wisselen van database moet mogelijk zijn zonder de applicatie opnieuw te moeten compileren.
 
-De applicatie maakt gebruik van de volgende APIs en frameworks: \n
-• JAX-RS v2.0 (REST, JSON) \n
+De applicatie maakt gebruik van de volgende APIs en frameworks:
+
+• JAX-RS v2.0 (REST, JSON)
 • CDI (Context & Dependency injection)
 • JDBC API
 De applicatie moet gedeployed kunnen worden op Apache TomEE Plus.
